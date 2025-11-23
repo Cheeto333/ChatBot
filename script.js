@@ -12,8 +12,8 @@ const chatbotToggler= document.querySelector("#chatbot-toggler");
 const closeChatbot= document.querySelector("#close-chatbot");
 
 // Reemplaza con tu propia API Key
-const API_KEY = "AIzaSyBA65Kf4zyReiedd6-mWtKbXaJmemkknSs";
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
+const API_KEY = "";
+const API_URL = `${API_KEY}`;
 
 // Objeto para almacenar temporalmente el mensaje y el archivo del usuario
 const userData ={
